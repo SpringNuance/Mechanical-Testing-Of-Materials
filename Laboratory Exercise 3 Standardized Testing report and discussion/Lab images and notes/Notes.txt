@@ -1,0 +1,6 @@
+The two specimens are cut with EDM machine
+This lab experiment helps student understand the hardness materials in the cross section of the materials
+
+
+We need to make sure the 4 lines covering the rhombus must exactly touch the corners of the 
+rhombus indenter, since Vickers measurement formula is based on the average diameter length (micrometer)
