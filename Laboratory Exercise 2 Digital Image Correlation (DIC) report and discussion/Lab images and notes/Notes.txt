@@ -1,6 +1,22 @@
-The two specimens are cut with EDM machine
-This lab experiment helps student understand the hardness materials in the cross section of the materials
+In order to make the laboratory experiment with digital image correlation more useful as a learning experience, 
+it is good to already have some notion of how the images you capture during the experiment will be processed. 
+To that end, we have set up a computer workstation in the downstairs meeting room in K2, room 105b, with the 
+Vic3D software installed, and captured some images of a reference with known strain fields applied to the same 
+numerically generated pattern. If you have not already done so, please sign up for a time slot tomorrow 
+(Thursday, April 4) afternoon or Friday (April 5) to come try out the basic steps of a simple DIC calculation 
+and explore the influence of calculation settings like the subset size used in the displacement calculation and 
+the strain filter size that the Vic3D software used to calculate strain fields from the displacement field. 
+I will be there to individually guide you through the calculations and answer any questions you have about them. 
 
+We will provide more information about the laboratory exercise itself sometime in the next few days. 
+The measurements will happen some time next week, or maybe early in the week after that. 
+The reason some of the arrangements for that are still uncertain, is that you have a special opportunity this year, 
+to use demonstration units from a few different commercial vendors of DIC systems for your laboratory exercises. 
+These vendors will bring their systems to our labs for the Finnish DIC Day, on Tuesday April 9th. 
 
-We need to make sure the 4 lines covering the rhombus must exactly touch the corners of the 
-rhombus indenter, since Vickers measurement formula is based on the average diameter length (micrometer)
+If you have the time and would like to join the presentations or equipment demonstrations, 
+please take a look at the schedule and sign up at https://www.aalto.fi/en/events/finnish-dic-day-2024. 
+This is entirely optional for the course, but might be an interesting opportunity for you given that you were interested 
+in the course. It could also provide inspiration for the case study at the end of the course, especially if you 
+have not yet decided what you want to do that about. 
+
