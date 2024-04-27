@@ -1,0 +1,87 @@
+Vic Snap 9 is connected to the machine to record the pictures from the cameras.
+
+Vic 3D 9 is the postprocessing softwares for calculating the correlation
+
+Options: speckle images is the images taken from the specimen
+
+The output of the experiment are a list of tif images (they have the standard same dimensions)  from snap 9, which are then input into Vic 3D software
+
+Calibration images: are the images taken from the calibration blocks
+
+ask Ehsan to send tif images of shear 
+
+calibration tab goto calibrate stereo system
+score below 0.03 is good enough
+
+why we need to do this
+
+the reason for calibration is that we are going to move the cameras somewhere, and we 
+
+The purpose of calibration is to make two cameras looking at the same spot. After that we place the calibration block at that place, and takes a series of pictures (30 pictures), you save them. 
+
+lets say that someone new coming to the system and change the camera, and they leave, now our camera is not the same like before.
+
+We should check that camera should look at the same point. If not, we should change the camera position. 
+
+the score of 0.017 is just a validation to tell whether the two cameras are good enough. (below 0.03)
+
+everything is now ready
+
+first thing we need to define main test area of this specimen.
+
+click create rectangular 
+
+we should create the rectangular on the specimen gauge that is perfectly rectangular where the curves end.
+
+by experience, when we define the rectangles, we shouldnt let the red edge touches the edge of the specimen at all. this is to avoid errors in calculations such as in the contours. So we can move the red edge a little bid inside not touching the edge of the specimen
+
+
+However, the specimens have some inside geometries that is empty. For example central hole has an empty hole, shear has some complex empty shape inside, and we cannot let dic system to calculate over these empty areas
+for SDB, it is simple because there is no empty part
+for central hole, it is not difficult, we can use Cut circle
+for shear it is very complex, defining cut rectangles, cut circles and curves and so pn it is long process
+
+we need to define the subset, to know the correct value click on the question mark define subset value and it will give a suggestion, then put 23 over there.
+
+
+now everything is ready. we click on the green arrow
+
+in vic3d analysis postprocessing tab, there is the filter size..
+
+the rule of thumb: 2 x subset smaller than or equal filter size x step
+
+2 x 23 smaller than 11 x 7, which is correct.
+
+the reference image is the first image maybe for referencing such as defining the rectangulars and cut circles earlier.
+
+Then we click Run.
+
+Then after that we choose Contour variable then choose eyy [1] Lagrange 
+
+
+then we choose the extensometer
+at the first picture we dont have any load (or only the Preload)
+
+since our specimen, the whole y direction test length is 30 mm for all specimen (including sdb).
+
+when we press control, we would even number of milimeters
+
+then we extend extensometer by 30 mm along the y direction of the specimen, and ideally that line should prearbly be the center of the specimen, since that is where the most displacements happen
+
+right click then extraction
+
+then we have a point to point graph (yellow)
+
+if there is vibration at the end of the graph, it means the searation of the paint of speckles from the surface possible due to large displacements.
+
+we would switch to extensometers option.
+
+then we can llot delta L (mm) vs Index of the image , we can change it by the Y and X box, then click Add. 
+
+E0 is just the name of the extensometer
+
+If we put another extensometer it would be E1 name and so on.
+
+then we click export the csv file
+
+fonally to export video we need to remove the extensometer line

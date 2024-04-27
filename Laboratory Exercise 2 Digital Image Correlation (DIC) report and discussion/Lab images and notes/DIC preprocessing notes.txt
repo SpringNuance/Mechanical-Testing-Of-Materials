@@ -1,0 +1,110 @@
+Material: DP800, Shear geometry 
+stage 1 cleaning the surface with Asetoni 
+after cleaning, we do not touch the middle part of the specimen, since that is the part we are going to paint
+
+when we paint, the paint will come up from the machine 
+
+first we used white color to paint the background
+
+then, put the specimen away to make it dried
+
+then we start to make pattern using black color
+
+If there is too much black color, or too few white
+
+we would have bad brightness in the DIC machine, so it is a trial and error task until we have good paint on the DIC
+
+the close up image is a very good pattern
+
+on the left is bad and on the right is good pattern for the two specimen comparison
+
+if the painting is bad, we can use acetol to remove tha paint and repeat the whole step again
+
+after you use paint, please press the bottle upside down until no paint comes up to clear the vessel/nossel of the paint. This wpuld help make the paint bottle last longer awithiut becoming stuck.
+
+
+we must wear gloves and mask when painting and apply acetol
+
+Vic Snap-9 is for taking pictures using the camera (do not touch it!)
+Vic 3D is for post processing
+
+the box next to the computer is the one to receive DIC images, and we should turn it on woth buttons before and after the box. It should be turned on to be warmed up first 
+
+in the screen there is two black box, which corresponds to black curtain behind the DIC machine. However if the machine is not warmed up then the screen is totally white (shown nothing)
+
+Speckle: will be images taken from the specimen
+Calibration: wil be the pictures to take when we want to calibrate devices
+
+we choose seconds for acquisition interval as it was the unit of time used by the tensile machine so it is more compatible if we choose seconds
+
+TestXpertII software
+
+The image of curves is obtained from tensile test for different geometries of DP800
+
+For each geoemtry there is 3 directions: RD, TD and DD, and for each direction there are 3 specimen to check repeatability, so we have 9 specimen for each geometry.  
+
+SHS DD I renamed 
+
+Then we go to Wizard
+
+Go to Preload tab
+
+Preload is for the machine to tightly grip on the specimen firmly, without Preload there is unwanted data such as vibration or unwanted move.
+
+The amount of preload is very important. 
+
+For SDB DP800 it is usually 800 MPa (8kN) that it breaks. So we choose a preload of around 15 MPa as preload which is adequate (compared to 800 MPa it is nothing)
+
+So for SHS it will break much lower around 600 MPa (1.9 kN), so we cannot put 15 MPa as it is too much for that. 
+
+the width of SHS is around 2.8 mm and thickness is 1 mm, so area is around 2.8 x 10^-6 m^2
+
+so we put 30 Newton
+
+
+the middle part of the specimen must not be touched or we would ruin the images
+
+
+specimen data tab: most important, define geometries
+
+in Test tab, the most important is Test Speed
+For SDB we use 0.36 mm/min
+For SHS we use 0.18 mm/min (half of SDB for ither geometries)
+
+other tabs let them be default
+
+
+when we put the specimen into the tensile machine, we should position it in symmetric position and both X and Y direction
+
+use the perpendicular tool to totally make the specimen positioned vertically. 
+
+after specimen is totally upright
+
+original image: we turn off Light output (red to arrive at the original image)
+
+then we press brightness/or focus to see the colors (purple)
+
+How do we know the quality brightness, using the color map below. Purple and blue usually indicatte good brightness
+
+why there are two images on the screen: to capture the thickness varying from the two cameras looking at the specimen. Later on when we postprocessing, the two would be combined together, revealing changes in thickness 
+
+we press crosshairs to check if camera is well calibrated. We continue to zoom until we get at the same point. If the pixel distance is around 4-5 pixels difference then it is okay (one in image) neglectable. Better to be at the same point. However if time is tight or have to do dic test for many settings then we do not have time calibrate.
+Refer to Ehsan ppt for exact pixel alignment
+
+time to start to click to start the tensile test, and it initially starts the preloading
+
+then, DIC machines start to take images (in image right now it is 30 images) 
+
+when do we stop? we should wait until the specimen fracture, then click the stop button. or we can choose the stop after option, but it doesnt make sense, so we need to wait for DIC to take images until the specimen fractures, then click the stop button
+
+there is a PDF file, ask ehsan to send to me. Guide for uniaxial tension test at room temperature with DIC measurement
+
+the computer generated pattern black also okay to use to glue it onto the specimen. But everyone used paint and it is more common
+
+Using DIC, we can obtain 
+
+delta_L: L1 - L0
+strain: (L1 - L0)/L0
+
+use DIC to obtain L0, L1, delta_L (mainly)
+from the tensile machine, we can obtain force. Elongation from the tensile machine is just total elongation between
