@@ -1,6 +1,72 @@
-The two specimens are cut with EDM machine
-This lab experiment helps student understand the hardness materials in the cross section of the materials
+Extensometer to measure strain , which has a strain gauge inside
 
+Instrument measuring device
 
-We need to make sure the 4 lines covering the rhombus must exactly touch the corners of the 
-rhombus indenter, since Vickers measurement formula is based on the average diameter length (micrometer)
+what we are doing today is using glueable strain gage to measure tensile strain
+
+We are going to detach the strain on the specimen
+
+We can measure y axis strain and x axis strain 
+
+We receive 2 files
+
+Only one tensile test 
+1) 1st specimen we do only 1 test
+we choose aluminium 
+
+use the manual to report all values like e and NU
+
+Strain gages Kyowa manufacturer 
+
+two outputs: force and extensometer, are coupled/synchronized
+
+30kN on the machine corresponds to 10 wolt signal, which is about 15 percent of strain
+
+strain gauge signal is micrometer per meter
+
+Biaxial strain gauge measure in X and Y (reference from Kyowa) KFGS-5-120-C1-11 L1M2R
+
+the adhesive glue is CC 33 A 
+
+HPM amplifier
+
+thickness is 1.95 mm
+width is 12.12 mm
+length between the ending of the two radiuses (named parallel length) 50.50 mm
+
+the applied glued of the strain gauge on the specimen must be very thin.
+
+after the middle part has been cleaned, we would pour 1 drop of glue cc 33 e onto the back of the strain gauge on the metal sheet. Then we use a thin paper to press the strain gauge against the tensile experiment for around 2 minutes. then we remove the paper
+
+manual: SFS EN ISO 6892 1:2019, page 32 about strain rate. We choose strain rate 2
+
+convert strain rate 0.00025 1/m
+
+so we multiply this strain rate with parallel length 0.00025 x 50mm = 0.012625 mm/s * 60 = 0.75 mm/minute
+
+first stage: 0.75mm per minute
+second stage 1.5mm per minute 
+
+during the tensile test we can actually change the strain rate as well.
+
+it was slower strain rate during the elastic part. Then we should increase the strain rate for faster experiment, maybe twice the speed
+
+report different ways of measuring strain and makes sure it is useful
+
+the extensometer measures strain along y, and the red strain gauge measures strain along x direction
+
+var1 is the percentage where we would increase the speed. we do not zero out the load as the specimen is already subject to the stress due to gripping)
+
+SG signal is negative suggesting that it is thinning. 
+
+68 GPa aluminum grade 5000
+67 GPa measured
+
+standard called SFS-EN ISO 6892-1:2019
+
+You can access the SFS standards through library pages. Just look for online version SFS standards and from there you can look for the one we used in laboratory session. 
+SFS-EN ISO 6892
+
+https://web.lib.aalto.fi/fi/edata/?cmd=find&key=keyword&keyword=SFS
+
+elongation to fracture, how to calculate
