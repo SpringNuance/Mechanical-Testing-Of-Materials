@@ -1,0 +1,4 @@
+File Path: C:\Measurements\Harkka\Test Run 1 05-8-24 11 22 18 am\DAQ- Crosshead, … - (Timed).txt   
+Test: KW-VETO_ext_2speed_Aout_verified_gr5
+Test Run: Test Run 1
+Date: 08/05/2024 11.04.41
